@@ -1,0 +1,91 @@
+.Fail {
+    background-color: rgb(49, 28, 28);
+    color: rgb(255, 0, 0);
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    width: 40px;
+}
+
+.Success {
+    background-color: rgb(28, 49, 28);
+    color: rgb(18, 255, 0);
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    width: 40px;
+}
+
+.Result {
+    width: 70px;
+}
+
+.SmallText {
+    width: 220px;
+    flex-basis: initial;
+    flex-shrink: 0;
+    max-width: 220px;
+    max-height: 220px;
+}
+
+.LongText {
+}
+
+.SelectButton {
+    width: 40px;
+    flex-basis: initial;
+    flex-shrink: 0;
+    max-width: 40px;
+    max-height: 40px;
+}
+
+.FixButton {
+    width: 30px;
+    flex-basis: initial;
+    flex-shrink: 0;
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.Header {
+    border-bottom-color: rgb(42, 42, 42);
+    border-bottom-width: 2px;
+    margin-bottom: 5px;
+    margin-top: 9px;
+    -unity-font-style: bold;
+}
+
+.InvisibleButton {
+    background-color: rgba(88, 88, 88, 0);
+    border-left-color: rgba(255, 255, 255, 0);
+    border-right-color: rgba(255, 255, 255, 0);
+    border-top-color: rgba(255, 255, 255, 0);
+    border-bottom-color: rgba(255, 255, 255, 0);
+    width: 12px;
+    align-items: flex-end;
+    white-space: nowrap;
+    -unity-text-align: middle-right;
+    left: 90%;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.Foldout {
+    background-color: rgba(42, 42, 42, 255);
+}

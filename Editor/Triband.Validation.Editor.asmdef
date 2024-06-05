@@ -1,0 +1,19 @@
+{
+    "name": "Triband.Validation.Editor",
+    "rootNamespace": "Triband.Validation.Editor",
+    "references": [
+        "Triband.Validation.Runtime",
+        "Unity.EditorCoroutines.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

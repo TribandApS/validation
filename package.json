@@ -1,0 +1,30 @@
+{
+    "name" : "com.triband.validation",
+    "description" : "Various validation and testing tools.",
+    "version" : "2.0.0",
+    "unity" : "2021.1",
+    "displayName" : "Validation",
+    "author" : {
+        "email" : "services@triband.com",
+        "name" : "Triband",
+        "url" : "http://triband.net"
+    },
+    "dependencies" : {
+        "com.unity.editorcoroutines" : "1.0.0"
+    },
+    "testables" : [
+        "com.triband.validation"
+    ],
+    "samples" : [
+        {
+            "displayName" : "Serialize Field Null Check",
+            "description" : "Contains a example of a Serialize Field Validator that finds broken object references",
+            "path" : "Samples~/NullReferenceCheck"
+        },
+        {
+            "displayName" : "Asset Dependency Validation",
+            "description" : "Contains a example of how to validate dependencies between assets",
+            "path" : "Samples~/AssetDependencyValidation"
+        }
+    ]
+}

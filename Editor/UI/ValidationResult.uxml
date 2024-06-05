@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.triband.validation/Editor/UI/com.triband.validation.uss?fileID=7433441132597879392&amp;guid=4f2761c9bd16d2b4bbeebfd9fad392e8&amp;type=3#com.triband.validation" />
+    <ui:VisualElement name="Root" style="flex-direction: row;">
+        <ui:VisualElement name="Icon" style="width: 16px; height: auto; margin-left: 2px; margin-right: 2px; margin-top: 2px; margin-bottom: 2px;" />
+        <ui:Label text="Source" display-tooltip-when-elided="false" name="Source" focusable="true" class="unity-base-text-field__input SmallText" style="-unity-text-align: upper-left;">
+            <ui:Button display-tooltip-when-elided="false" name="OpenSource" class="InvisibleButton" />
+        </ui:Label>
+        <ui:Label text="Messag" display-tooltip-when-elided="true" name="Message" class="unity-base-text-field__input LongText" />
+        <uie:ObjectField name="Object" />
+        <ui:Button text="Fix" display-tooltip-when-elided="true" name="Fix" focusable="true" class="FixButton" />
+    </ui:VisualElement>
+</ui:UXML>
